@@ -223,3 +223,27 @@ button {
   color: white;
   cursor: pointer;
 }
+
+.heading .heading-left i {
+  font-size: 30px;
+}
+.heading .heading-left h2 {
+  font-size: 25px;
+  margin: 5px;
+}
+.heading .heading-right i,
+.heading .heading-right {
+  text-align: right;
+  color: grey;
+}
+/*----- heading -------*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
