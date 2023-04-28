@@ -7,6 +7,8 @@ import Data from "./components/Data.js";
 import Sdata from "./components/shops/Sdata.js";
 import Pages from "./pages/Pages.jsx";
 
+import "./App.css";
+
 function App() {
   const { productItems } = Data;
   const { shopItems } = Sdata;
