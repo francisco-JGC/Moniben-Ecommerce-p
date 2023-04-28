@@ -1,3 +1,4 @@
+import { useState } from "react";
 const ShopCart = ({ shopItems, addToCart }) => {
   const [count, setCount] = useState(0);
   const increment = () => {
@@ -8,7 +9,7 @@ const ShopCart = ({ shopItems, addToCart }) => {
     <>
       {shopItems.map((shopItems, index) => {
         return (
-          <div className="box">
+          <div className="box" key={index}>
             <div className="product mtop">
               <div className="img">
                 <span className="discount">{shopItems.discount}% Off</span>
